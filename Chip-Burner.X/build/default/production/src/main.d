@@ -1,0 +1,1 @@
+ build/default/production/src/main.d  build/default/production/src/main.obj:  src/main.C C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/delay.h C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/usb.h src/spi.h C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/leonino.h

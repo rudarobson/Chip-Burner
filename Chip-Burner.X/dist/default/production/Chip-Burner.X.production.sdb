@@ -1,0 +1,750 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+"4 C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/delay.c
+[v _delay_ms delay_ms `(v  1 e 0 0 ]
+"3 C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/mem_flash.c
+[v _SafeWriteBytesFlash SafeWriteBytesFlash `(v  1 e 0 0 ]
+"8
+[v _SafeEraseFlash SafeEraseFlash `(v  1 e 0 0 ]
+"38 C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/ep0.c
+[v _ep0_configure ep0_configure `(v  1 e 0 0 ]
+"53
+[v _ep0_handle_setup_transaction ep0_handle_setup_transaction `(v  1 e 0 0 ]
+"170
+[v _ep0_handle_standard_device ep0_handle_standard_device `(v  1 e 0 0 ]
+"193
+[v _ep0_entry_point ep0_entry_point `(v  1 e 0 0 ]
+"212
+[v _ep0_in_handler_send_descriptor ep0_in_handler_send_descriptor `(v  1 e 0 0 ]
+"228
+[v _ep0_out_handler_ack ep0_out_handler_ack `(v  1 e 0 0 ]
+"234
+[v _ep0_in_handler_ack ep0_in_handler_ack `(v  1 e 0 0 ]
+"240
+[v _ep0_in_handler_set_address ep0_in_handler_set_address `(v  1 e 0 0 ]
+"244
+[v _ep0_in_handler_configure ep0_in_handler_configure `(v  1 e 0 0 ]
+"16 C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/ep1.c
+[v _ep1_configure ep1_configure `(v  1 e 0 0 ]
+"25
+[v _ep1_unconfigure ep1_unconfigure `(v  1 e 0 0 ]
+"31
+[v _ep1_write ep1_write `(uc  1 e 1 0 ]
+"47
+[v _ep1_send ep1_send `(uc  1 e 1 0 ]
+"61
+[v _ep1_entry_point ep1_entry_point `(v  1 e 0 0 ]
+"17 C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/ep2.c
+[v _ep2_configure ep2_configure `(v  1 e 0 0 ]
+"25
+[v _ep2_unconfigure ep2_unconfigure `(v  1 e 0 0 ]
+"33
+[v _ep2_prepare_read ep2_prepare_read `(v  1 e 0 0 ]
+"43
+[v _ep2_configure_handler ep2_configure_handler `(v  1 e 0 0 ]
+"47
+[v _ep2_unconfigure_handler ep2_unconfigure_handler `(v  1 e 0 0 ]
+"51
+[v _ep2_entry_point ep2_entry_point `(v  1 e 0 0 ]
+"61
+[v _ep2_read ep2_read `(uc  1 e 1 0 ]
+"7 C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/usb.c
+[v _usb_device_configure usb_device_configure `(v  1 e 0 0 ]
+"14
+[v _usb_start usb_start `(v  1 e 0 0 ]
+"33
+[v _usb_disable usb_disable `(v  1 e 0 0 ]
+"38
+[v _usb_reset usb_reset `(v  1 e 0 0 ]
+"53
+[v _usb_handle usb_handle `(v  1 e 0 0 ]
+"81
+[v _usb_configure_handler usb_configure_handler `(v  1 e 0 0 ]
+"85
+[v _usb_write usb_write `(uc  1 e 1 0 ]
+"89
+[v _usb_write_byte usb_write_byte `(uc  1 e 1 0 ]
+"95
+[v _usb_read usb_read `(uc  1 e 1 0 ]
+"99
+[v _usb_send usb_send `(uc  1 e 1 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\abdiv.c
+[v ___abdiv __abdiv `(c  1 e 1 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\abmod.c
+[v ___abmod __abmod `(c  1 e 1 0 ]
+"32 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\abtofl.c
+[v ___abtofl __abtofl `(d  1 e 3 0 ]
+"34 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\abtoft.c
+[v ___abtoft __abtoft `(f  1 e 3 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\almod.c
+[v ___almod __almod `(l  1 e 4 0 ]
+"37 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\altofl.c
+[v ___altofl __altofl `(d  1 e 3 0 ]
+"43 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\altoft.c
+[v ___altoft __altoft `(f  1 e 3 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\atdiv.c
+[v ___atdiv __atdiv `(m  1 e 3 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\atmod.c
+[v ___atmod __atmod `(m  1 e 3 0 ]
+"38 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\attofl.c
+[v ___attofl __attofl `(d  1 e 3 0 ]
+"38 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\attoft.c
+[v ___attoft __attoft `(f  1 e 3 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"32 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awtofl.c
+[v ___awtofl __awtofl `(d  1 e 3 0 ]
+"33 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"3 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\bmul.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"64 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\double.c
+[v ___flpack __flpack `(d  1 e 3 0 ]
+"89 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fladd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"50 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fldiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"51 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\flmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"16 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\flneg.c
+[v ___flneg __flneg `(d  1 e 3 0 ]
+"63 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"22 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\flsub.c
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"44 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"87 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"50 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+"52 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"16 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftneg.c
+[v ___ftneg __ftneg `(f  1 e 3 0 ]
+"22 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"45 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+"28 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lbtofl.c
+[v ___lbtofl __lbtofl `(d  1 e 3 0 ]
+"28 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lbtoft.c
+[v ___lbtoft __lbtoft `(f  1 e 3 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"31 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lltofl.c
+[v ___lltofl __lltofl `(d  1 e 3 0 ]
+"36 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lltoft.c
+[v ___lltoft __lltoft `(f  1 e 3 0 ]
+"3 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lmul.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ltdiv.c
+[v ___ltdiv __ltdiv `(um  1 e 3 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ltmod.c
+[v ___ltmod __ltmod `(um  1 e 3 0 ]
+"31 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lttofl.c
+[v ___lttofl __lttofl `(d  1 e 3 0 ]
+"31 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lttoft.c
+[v ___lttoft __lttoft `(f  1 e 3 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"29 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lwtofl.c
+[v ___lwtofl __lwtofl `(d  1 e 3 0 ]
+"29 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+"3 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\tmul.c
+[v ___tmul __tmul `(um  1 e 3 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\wmul.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic18\asfladd.c
+[v ___asfladd __asfladd `(d  1 e 3 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic18\asfldiv.c
+[v ___asfldiv __asfldiv `(d  1 e 3 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic18\asflmul.c
+[v ___asflmul __asflmul `(d  1 e 3 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic18\asflsub.c
+[v ___asflsub __asflsub `(d  1 e 3 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic18\asftadd.c
+[v ___asftadd __asftadd `(f  1 e 3 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic18\asftdiv.c
+[v ___asftdiv __asftdiv `(f  1 e 3 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic18\asftmul.c
+[v ___asftmul __asftmul `(f  1 e 3 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic18\asftsub.c
+[v ___asftsub __asftsub `(f  1 e 3 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic18\aslmul.c
+[v ___aslmul __aslmul `(ul  1 e 4 0 ]
+"27 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic18\plib\Flash\EraseFlash.c
+[v _EraseFlash EraseFlash `(v  1 e 0 0 ]
+"24 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic18\plib\Flash\ReadFlash.c
+[v _ReadFlash ReadFlash `(v  1 e 0 0 ]
+"26 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic18\plib\Flash\WriteBytesFlash.c
+[v _WriteBytesFlash WriteBytesFlash `(v  1 e 0 0 ]
+"15 D:\importante\Projetos\Leonino\Chip-Burner.X\src/main.C
+[v _read read `(v  1 e 0 0 ]
+"19
+[v _main main `(i  1 e 2 0 ]
+"8 D:\importante\Projetos\Leonino\Chip-Burner.X\src/spi.c
+[v _SPI_CONFIGURE SPI_CONFIGURE `(v  1 e 0 0 ]
+"29
+[v _SPI_UNCONFIGURE SPI_UNCONFIGURE `(v  1 e 0 0 ]
+"40
+[v _spi_transcation spi_transcation `(uc  1 e 1 0 ]
+"67
+[v _SPI_Write SPI_Write `(v  1 e 0 0 ]
+"81
+[v _SPI_EnableProgramming SPI_EnableProgramming `(uc  1 e 1 0 ]
+"96
+[v _SPI_ChipErase SPI_ChipErase `(v  1 e 0 0 ]
+"101
+[v _SPI_ReadProgramMemory SPI_ReadProgramMemory `(uc  1 e 1 0 ]
+"111
+[v _SPI_LoadProgramMemory SPI_LoadProgramMemory `(v  1 e 0 0 ]
+"119
+[v _SPI_WriteProgramMemoryPage SPI_WriteProgramMemoryPage `(v  1 e 0 0 ]
+"128
+[v _SPI_ExitProgramming SPI_ExitProgramming `(v  1 e 0 0 ]
+"134
+[v _SPI_Main SPI_Main `(v  1 e 0 0 ]
+"163 C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/usb.h
+[v _usb_device_state usb_device_state `uc  1 e 1 0 ]
+"14 C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/descriptor.h
+[v _dev_desc dev_desc `C[18]uc  1 e 18 0 ]
+"52
+[v _conf_desc_0 conf_desc_0 `C[32]uc  1 e 32 0 ]
+"98
+[v _string_desc_1 string_desc_1 `C[15]uc  1 e 15 0 ]
+[s S539 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"12 C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/ep0.c
+[s S548 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :2:6 
+]
+[s S555 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S559 . 1 `uc 1 uc 1 0 `S539 1 . 1 0 `S548 1 . 1 0 `S555 1 . 1 0 ]
+[s S564 bdentry 4 `S559 1 BDSTAT 1 0 `uc 1 BDCNT 1 1 `uc 1 BDADDRL 1 2 `uc 1 BDADDRH 1 3 ]
+[v _ep0_out_bd ep0_out_bd `S564  1 e 4 @1024 ]
+"13
+[v _ep0_out_buffer ep0_out_buffer `[64]uc  1 e 64 @1280 ]
+[s S569 . 8 `uc 1 bmRequestType 1 0 `uc 1 bRequest 1 1 `uc 1 wValueLow 1 2 `uc 1 wValueHigh 1 3 `uc 1 wIndexLow 1 4 `uc 1 wIndexHigh 1 5 `uc 1 wLengthLow 1 6 `uc 1 wLengthHigh 1 7 ]
+"14
+[s S578 . 8 `uc 1 bmRequestType 1 0 `uc 1 bRequest 1 1 `ui 1 wValue 2 2 `ui 1 wIndex 2 4 `ui 1 wLength 2 6 ]
+[u S584 SetupPacket 8 `S569 1 . 8 0 `S578 1 . 8 0 ]
+[v _setup_pkt setup_pkt `S584  1 e 8 @1280 ]
+"20
+[v _ep0_out_handler ep0_out_handler `*.37(v  1 e 2 0 ]
+"23
+[v _ep0_in_bd ep0_in_bd `S564  1 e 4 @1028 ]
+"24
+[v _ep0_in_buffer ep0_in_buffer `[64]uc  1 e 64 @1344 ]
+"30
+[v _ep0_in_handler ep0_in_handler `*.37(v  1 e 2 0 ]
+"32
+[v _ep0_in_decsriptor ep0_in_decsriptor `*.25uc  1 e 2 0 ]
+"33
+[v _ep0_in_total_bytes_to_send ep0_in_total_bytes_to_send `ui  1 e 2 0 ]
+"35
+[v _ep0_dir ep0_dir `uc  1 e 1 0 ]
+"36
+[v _ep0_temp_uaddr ep0_temp_uaddr `uc  1 e 1 0 ]
+"11 C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/ep1.c
+[v _ep1_bd ep1_bd `S564  1 e 4 @1036 ]
+"12
+[v _ep1_buffer ep1_buffer `[64]uc  1 e 64 @1408 ]
+"13
+[v _total_writen total_writen `uc  1 e 1 0 ]
+"11 C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/ep2.c
+[v _ep2_bd ep2_bd `S564  1 e 4 @1040 ]
+"12
+[v _ep2_buffer ep2_buffer `[64]uc  1 e 64 @1472 ]
+"15
+[v _ep2_receive_handler ep2_receive_handler `*.37(v  1 e 2 0 ]
+"51 C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/usb.c
+[v _toggle toggle `uc  1 e 1 0 ]
+"212 C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic18f4550.h
+[v _SPPCON SPPCON `VEuc  1 e 1 @3941 ]
+"359
+[v _UIR UIR `VEuc  1 e 1 @3944 ]
+[s S617 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 SUSPND 1 0 :1:1 
+`uc 1 RESUME 1 0 :1:2 
+`uc 1 USBEN 1 0 :1:3 
+`uc 1 PKTDIS 1 0 :1:4 
+`uc 1 SE0 1 0 :1:5 
+`uc 1 PPBRST 1 0 :1:6 
+]
+"375
+[u S625 . 1 `S617 1 . 1 0 ]
+[v _UIRbits UIRbits `VES625  1 e 1 @3944 ]
+"414
+[v _UIE UIE `VEuc  1 e 1 @3945 ]
+"569
+[v _USTAT USTAT `VEuc  1 e 1 @3948 ]
+"628
+[v _UCON UCON `VEuc  1 e 1 @3949 ]
+"644
+[v _UCONbits UCONbits `VES625  1 e 1 @3949 ]
+"678
+[v _UADDR UADDR `VEuc  1 e 1 @3950 ]
+"741
+[v _UCFG UCFG `VEuc  1 e 1 @3951 ]
+"822
+[v _UEP0 UEP0 `VEuc  1 e 1 @3952 ]
+"953
+[v _UEP1 UEP1 `VEuc  1 e 1 @3953 ]
+"1084
+[v _UEP2 UEP2 `VEuc  1 e 1 @3954 ]
+[s S38 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"2752
+[s S78 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S86 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S89 . 1 `S38 1 . 1 0 `S78 1 . 1 0 `S86 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES89  1 e 1 @3969 ]
+[s S332 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"2880
+[s S341 . 1 `uc 1 T1OSO 1 0 :1:0 
+`uc 1 T1OSI 1 0 :1:1 
+`uc 1 CCP1 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 TX 1 0 :1:6 
+`uc 1 RX 1 0 :1:7 
+]
+[s S348 . 1 `uc 1 T13CKI 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 P1A 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 CK 1 0 :1:6 
+`uc 1 DT 1 0 :1:7 
+]
+[s S355 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+]
+[s S358 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PA1 1 0 :1:2 
+]
+[s S361 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PA2 1 0 :1:1 
+]
+[s S364 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 RC3 1 0 :1:3 
+]
+[u S367 . 1 `S332 1 . 1 0 `S341 1 . 1 0 `S348 1 . 1 0 `S355 1 . 1 0 `S358 1 . 1 0 `S361 1 . 1 0 `S364 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES367  1 e 1 @3970 ]
+[s S190 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"3015
+[s S294 . 1 `uc 1 SPP0 1 0 :1:0 
+`uc 1 SPP1 1 0 :1:1 
+`uc 1 SPP2 1 0 :1:2 
+`uc 1 SPP3 1 0 :1:3 
+`uc 1 SPP4 1 0 :1:4 
+`uc 1 SPP5 1 0 :1:5 
+`uc 1 SPP6 1 0 :1:6 
+`uc 1 SPP7 1 0 :1:7 
+]
+[s S303 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 SS2 1 0 :1:7 
+]
+[u S306 . 1 `S190 1 . 1 0 `S294 1 . 1 0 `S303 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES306  1 e 1 @3971 ]
+[s S29 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"4200
+[u S47 . 1 `S29 1 . 1 0 `S38 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES47  1 e 1 @3987 ]
+[s S221 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"4421
+[s S228 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[s S235 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 TRISC3 1 0 :1:3 
+]
+[u S238 . 1 `S221 1 . 1 0 `S228 1 . 1 0 `S235 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES238  1 e 1 @3988 ]
+"4592
+[v _TRISDbits TRISDbits `VES47  1 e 1 @3989 ]
+[s S1104 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 WREN 1 0 :1:2 
+`uc 1 WRERR 1 0 :1:3 
+`uc 1 FREE 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CFGS 1 0 :1:6 
+`uc 1 EEPGD 1 0 :1:7 
+]
+"5435
+[s S1113 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 EEFS 1 0 :1:6 
+]
+[u S1116 . 1 `S1104 1 . 1 0 `S1113 1 . 1 0 ]
+[v _EECON1bits EECON1bits `VES1116  1 e 1 @4006 ]
+"5479
+[v _EECON2 EECON2 `VEuc  1 e 1 @4007 ]
+"6096
+[v _CMCON CMCON `VEuc  1 e 1 @4020 ]
+"7082
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"7172
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+[s S1132 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"9022
+[s S1141 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S1150 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[s S1159 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S1168 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S1172 . 1 `S1132 1 . 1 0 `S1141 1 . 1 0 `S1150 1 . 1 0 `S1159 1 . 1 0 `S1168 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES1172  1 e 1 @4082 ]
+"9124
+[v _TABLAT TABLAT `VEuc  1 e 1 @4085 ]
+"9138
+[v _TBLPTRL TBLPTRL `VEuc  1 e 1 @4086 ]
+"9144
+[v _TBLPTRH TBLPTRH `VEuc  1 e 1 @4087 ]
+"9150
+[v _TBLPTRU TBLPTRU `VEuc  1 e 1 @4088 ]
+"9518
+[v _CVREN CVREN `VEb  1 e 0 @32175 ]
+[s S143 SPI_ProgrammingDelays 4 `uc 1 tWD_FLASH 1 0 `uc 1 tWD_EEPROM 1 1 `uc 1 tWD_ERASE 1 2 `uc 1 tWD_FUSE 1 3 ]
+"5 D:\importante\Projetos\Leonino\Chip-Burner.X\src/spi.c
+[v _spi_delays spi_delays `S143  1 e 4 0 ]
+[s S148 SPI_MMDelays 5 `uc 1 tCLCL 1 0 `uc 1 tSHSL 1 1 `uc 1 tSLSH 1 2 `uc 1 tOVSH 1 3 `uc 1 tSLIV 1 4 ]
+"6
+[v _spi_mmDelays spi_mmDelays `S148  1 e 5 0 ]
+"132
+[v _toggled toggled `uc  1 e 1 0 ]
+"19 D:\importante\Projetos\Leonino\Chip-Burner.X\src/main.C
+[v _main main `(i  1 e 2 0 ]
+{
+"30
+} 0
+"81 C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/usb.c
+[v _usb_configure_handler usb_configure_handler `(v  1 e 0 0 ]
+{
+[v usb_configure_handler@handler handler `*.37(v  1 p 2 2 ]
+"83
+} 0
+"43 C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/ep2.c
+[v _ep2_configure_handler ep2_configure_handler `(v  1 e 0 0 ]
+{
+[v ep2_configure_handler@handler handler `*.37(v  1 p 2 0 ]
+"45
+} 0
+"7 C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/usb.c
+[v _usb_device_configure usb_device_configure `(v  1 e 0 0 ]
+{
+"12
+} 0
+"14
+[v _usb_start usb_start `(v  1 e 0 0 ]
+{
+"31
+} 0
+"38 C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/ep0.c
+[v _ep0_configure ep0_configure `(v  1 e 0 0 ]
+{
+"51
+} 0
+"53 C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/usb.c
+[v _usb_handle usb_handle `(v  1 e 0 0 ]
+{
+"61
+[v usb_handle@ustat_1009 ustat `uc  1 a 1 29 ]
+"62
+[v usb_handle@endpnum endpnum `uc  1 a 1 28 ]
+"58
+[v usb_handle@ustat ustat `uc  1 a 1 27 ]
+"79
+} 0
+"51 C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/ep2.c
+[v _ep2_entry_point ep2_entry_point `(v  1 e 0 0 ]
+{
+[v ep2_entry_point@ustat ustat `uc  1 p 1 1 ]
+"59
+} 0
+"33
+[v _ep2_prepare_read ep2_prepare_read `(v  1 e 0 0 ]
+{
+"41
+} 0
+"15 D:\importante\Projetos\Leonino\Chip-Burner.X\src/main.C
+[v _read read `(v  1 e 0 0 ]
+{
+"17
+} 0
+"61 C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/ep1.c
+[v _ep1_entry_point ep1_entry_point `(v  1 e 0 0 ]
+{
+[v ep1_entry_point@ustat ustat `uc  1 p 1 0 ]
+"62
+} 0
+"193 C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/ep0.c
+[v _ep0_entry_point ep0_entry_point `(v  1 e 0 0 ]
+{
+"194
+[v ep0_entry_point@bmRequestType bmRequestType `uc  1 a 1 26 ]
+"193
+[v ep0_entry_point@ustat ustat `uc  1 p 1 24 ]
+"210
+} 0
+"170
+[v _ep0_handle_standard_device ep0_handle_standard_device `(v  1 e 0 0 ]
+{
+"171
+[v ep0_handle_standard_device@pid pid `uc  1 a 1 23 ]
+"191
+} 0
+"240
+[v _ep0_in_handler_set_address ep0_in_handler_set_address `(v  1 e 0 0 ]
+{
+"242
+} 0
+"212
+[v _ep0_in_handler_send_descriptor ep0_in_handler_send_descriptor `(v  1 e 0 0 ]
+{
+"213
+[v ep0_in_handler_send_descriptor@num num `ui  1 a 2 17 ]
+"226
+} 0
+"234
+[v _ep0_in_handler_ack ep0_in_handler_ack `(v  1 e 0 0 ]
+{
+"238
+} 0
+"244
+[v _ep0_in_handler_configure ep0_in_handler_configure `(v  1 e 0 0 ]
+{
+"246
+} 0
+"228
+[v _ep0_out_handler_ack ep0_out_handler_ack `(v  1 e 0 0 ]
+{
+"232
+} 0
+"53
+[v _ep0_handle_setup_transaction ep0_handle_setup_transaction `(v  1 e 0 0 ]
+{
+"54
+[v ep0_handle_setup_transaction@desc_len desc_len `ui  1 a 2 21 ]
+"168
+} 0
+"17 C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/ep2.c
+[v _ep2_configure ep2_configure `(v  1 e 0 0 ]
+{
+"23
+} 0
+"16 C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/ep1.c
+[v _ep1_configure ep1_configure `(v  1 e 0 0 ]
+{
+"23
+} 0
+"24 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic18\plib\Flash\ReadFlash.c
+[v _ReadFlash ReadFlash `(v  1 e 0 0 ]
+{
+[s S1024 . 4 `us 1 LW 2 0 `us 1 HW 2 2 ]
+"27
+[s S1027 . 4 `uc 1 LB 1 0 `uc 1 HB 1 1 `uc 1 UB 1 2 `uc 1 MB 1 3 ]
+[s S1032 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+[s S1035 . 2 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+]
+[u S1052 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S1032 1 byte 2 0 `S1035 1 bits 2 0 ]
+[s S1057 . 4 `S1052 1 low 2 0 `S1052 1 high 2 2 ]
+[s S1060 . 4 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+`uc 1 b16 1 2 :1:0 
+`uc 1 b17 1 2 :1:1 
+`uc 1 b18 1 2 :1:2 
+`uc 1 b19 1 2 :1:3 
+`uc 1 b20 1 2 :1:4 
+`uc 1 b21 1 2 :1:5 
+`uc 1 b22 1 2 :1:6 
+`uc 1 b23 1 2 :1:7 
+`uc 1 b24 1 3 :1:0 
+`uc 1 b25 1 3 :1:1 
+`uc 1 b26 1 3 :1:2 
+`uc 1 b27 1 3 :1:3 
+`uc 1 b28 1 3 :1:4 
+`uc 1 b29 1 3 :1:5 
+`uc 1 b30 1 3 :1:6 
+`uc 1 b31 1 3 :1:7 
+]
+[u S1093 . 4 `ul 1 Val 4 0 `[2]us 1 w 4 0 `[4]uc 1 v 4 0 `S1024 1 word 4 0 `S1027 1 byte 4 0 `S1057 1 wordUnion 4 0 `S1060 1 bits 4 0 ]
+[v ReadFlash@tblptr_save tblptr_save `S1093  1 a 4 12 ]
+"25
+[v ReadFlash@flash_addr flash_addr `S1093  1 a 4 8 ]
+"24
+[v ReadFlash@startaddr startaddr `ul  1 p 4 0 ]
+[v ReadFlash@num_bytes num_bytes `ui  1 p 2 4 ]
+[v ReadFlash@flash_array flash_array `*.39uc  1 p 2 6 ]
+"57
+} 0
+"33 C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/usb.c
+[v _usb_disable usb_disable `(v  1 e 0 0 ]
+{
+"36
+} 0
+"38
+[v _usb_reset usb_reset `(v  1 e 0 0 ]
+{
+"49
+} 0
+"25 C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/ep2.c
+[v _ep2_unconfigure ep2_unconfigure `(v  1 e 0 0 ]
+{
+"29
+} 0
+"47
+[v _ep2_unconfigure_handler ep2_unconfigure_handler `(v  1 e 0 0 ]
+{
+"49
+} 0
+"25 C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/ep1.c
+[v _ep1_unconfigure ep1_unconfigure `(v  1 e 0 0 ]
+{
+"29
+} 0

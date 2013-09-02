@@ -1,0 +1,647 @@
+__S0 8000 0 ABS 0
+__S1 38 0 ABS 0
+_UIE F69 0 ABS 0
+_UIR F68 0 ABS 0
+__Hintentry 0 0 ABS 0
+__Lintentry 0 0 ABS 0
+_ep2_configure_handler 7A14 0 CODE 0
+_UEP0 F70 0 ABS 0
+_UEP1 F71 0 ABS 0
+_UEP2 F72 0 ABS 0
+_ep0_in_handler_ack 7AB8 0 CODE 0
+_UCFG F6F 0 ABS 0
+_usb_configure_handler 7A1E 0 CODE 0
+__size_of_ep0_in_handler_send_descriptor 0 0 ABS 0
+_UCON F6D 0 ABS 0
+_ep0_in_total_bytes_to_send 2C 0 COMRAM 1
+_read 79EE 0 CODE 0
+_main 7AD2 0 CODE 0
+__size_of_usb_disable 0 0 ABS 0
+start 2000 0 CODE 0
+__size_of_usb_reset 0 0 ABS 0
+__Hirdata 0 0 CODE 0
+__Lirdata 0 0 CODE 0
+__HRAM 0 0 ABS 0
+__LRAM 1 0 ABS 0
+_UADDR F6E 0 ABS 0
+_CVREN 7DAF 0 ABS 0
+_CMCON FB4 0 ABS 0
+_USTAT F6C 0 ABS 0
+__end_of_ep2_configure_handler 7A1E 0 CODE 0
+ep0_handle_standard_device@pid 18 0 COMRAM 1
+_dev_desc 2024 0 SMALLCONST 0
+__Hconfig 0 0 CONFIG 0
+__Lconfig 0 0 CONFIG 0
+__end_of_usb_handle 7CD6 0 CODE 0
+_ep0_in_bd 404 0 ABS 1
+__Hbigram 0 0 ABS 0
+__Lbigram 0 0 ABS 0
+__Hrparam 0 0 ABS 0
+__Lrparam 0 0 ABS 0
+__Hram 0 0 ABS 0
+__Lram 0 0 ABS 0
+__Hcomram 0 0 ABS 0
+__Lcomram 0 0 ABS 0
+__Hsfr 0 0 ABS 0
+__Lsfr 0 0 ABS 0
+__size_of_ep0_handle_setup_transaction 0 0 ABS 0
+__Hbss 0 0 RAM 1
+__Lbss 0 0 RAM 1
+__Hnvrram 0 0 COMRAM 1
+__Lnvrram 0 0 COMRAM 1
+_usb_device_configure 7A2C 0 CODE 0
+_ADCON0 FC2 0 ABS 0
+_ADCON1 FC1 0 ABS 0
+_EECON2 FA7 0 ABS 0
+__size_of_ep0_handle_standard_device 0 0 ABS 0
+_ep0_in_handler_configure 7A0A 0 CODE 0
+__Heeprom_data 0 0 EEDATA 0
+__Leeprom_data 0 0 EEDATA 0
+ep0_handle_setup_transaction@desc_len 16 0 COMRAM 1
+__size_of_ReadFlash 0 0 ABS 0
+__Hintsave_regs 0 0 BIGRAM 1
+__Lintsave_regs 0 0 BIGRAM 1
+_ep0_in_buffer 540 0 ABS 1
+_UCONbits F6D 0 ABS 0
+__Hbigbss 0 0 BIGRAM 1
+__Lbigbss 0 0 BIGRAM 1
+__Hintret 0 0 ABS 0
+__Lintret 0 0 ABS 0
+__Hramtop 800 0 RAM 0
+__Lramtop 800 0 RAM 0
+__Hstruct 0 0 COMRAM 1
+__Lstruct 0 0 COMRAM 1
+__Hbigdata 0 0 BIGRAM 1
+__Lbigdata 0 0 BIGRAM 1
+__Hmediumconst 0 0 MEDIUMCONST 0
+__Lmediumconst 0 0 MEDIUMCONST 0
+__Hfarbss 0 0 FARRAM 0
+__Lfarbss 0 0 FARRAM 0
+__Hintcode 2000 0 CODE 0
+__Lintcode 2000 0 CODE 0
+__Hfardata 0 0 FARRAM 0
+__Lfardata 0 0 FARRAM 0
+_TABLAT FF5 0 ABS 0
+__Habs1 0 0 ABS 0
+__Labs1 0 0 ABS 0
+_SPPCON F65 0 ABS 0
+__size_of_ep0_entry_point 0 0 ABS 0
+__HnvFARRAM 0 0 FARRAM 0
+__LnvFARRAM 0 0 FARRAM 0
+_ep2_receive_handler 30 0 COMRAM 1
+__end_of_read 79F0 0 CODE 0
+_ep2_prepare_read 7B16 0 CODE 0
+_ReadFlash 7C1A 0 CODE 0
+__size_of_ep0_in_handler_ack 0 0 ABS 0
+_ep1_bd 40C 0 ABS 1
+_ep2_bd 410 0 ABS 1
+__end_of_ep0_in_handler_set_address 79F6 0 CODE 0
+__end_of_conf_desc_0 2024 0 SMALLCONST 0
+__Hdata 0 0 ABS 0
+__Ldata 0 0 ABS 0
+_toggle 34 0 COMRAM 1
+__Htemp 0 0 COMRAM 1
+__Ltemp 0 0 COMRAM 1
+__Hrbit 0 0 COMRAM 1
+__Lrbit 0 0 COMRAM 1
+__Hinit 2000 0 CODE 0
+__Linit 2000 0 CODE 0
+__Hintcodelo 2000 0 CODE 0
+__Lintcodelo 2000 0 CODE 0
+__Hrbss 0 0 COMRAM 1
+__end_of_main 7AF0 0 CODE 0
+__Lrbss 0 0 COMRAM 1
+__size_of_ep0_configure 0 0 ABS 0
+_ep2_unconfigure_handler 79F6 0 CODE 0
+__Htext 0 0 ABS 0
+__Ltext 0 0 ABS 0
+__size_of_ep1_entry_point 0 0 ABS 0
+_ep0_out_bd 400 0 ABS 1
+__end_of_ep2_unconfigure_handler 7A00 0 CODE 0
+end_of_initialization 7A60 0 CODE 0
+_conf_desc_0 2004 0 SMALLCONST 0
+_spi_mmDelays 1F 0 COMRAM 1
+_TRISBbits F93 0 ABS 0
+_TRISCbits F94 0 ABS 0
+_TRISDbits F95 0 ABS 0
+_PORTBbits F81 0 ABS 0
+_PORTCbits F82 0 ABS 0
+_PORTDbits F83 0 ABS 0
+_usb_reset 7A84 0 CODE 0
+__size_of_ep1_configure 0 0 ABS 0
+__size_of_ep2_entry_point 0 0 ABS 0
+_ep0_out_handler 2E 0 COMRAM 1
+__Hibigdata 0 0 CODE 0
+__Libigdata 0 0 CODE 0
+_setup_pkt 500 0 ABS 1
+__Hifardata 0 0 CODE 0
+ep0_entry_point@ustat 19 0 COMRAM 1
+__Lifardata 0 0 CODE 0
+__end_of_usb_configure_handler 7A2C 0 CODE 0
+__Hbank0 0 0 ABS 0
+__Lbank0 0 0 ABS 0
+__end_of_ep0_entry_point 7C1A 0 CODE 0
+__Hbank1 0 0 ABS 0
+__Lbank1 0 0 ABS 0
+_TBLPTRH FF7 0 ABS 0
+__Hbank2 0 0 ABS 0
+__Lbank2 0 0 ABS 0
+__Hbank3 0 0 ABS 0
+__Lbank3 0 0 ABS 0
+_usb_start 7B3E 0 CODE 0
+__Hbank4 0 0 ABS 0
+__Lbank4 0 0 ABS 0
+__Hbank5 0 0 ABS 0
+__Lbank5 0 0 ABS 0
+_TBLPTRL FF6 0 ABS 0
+__Hpowerup 2000 0 CODE 0
+_ep0_out_buffer 500 0 ABS 1
+__Lpowerup 2000 0 CODE 0
+__Hbank6 0 0 ABS 0
+_ep0_out_handler_ack 7A9E 0 CODE 0
+__Lbank6 0 0 ABS 0
+__size_of_ep0_in_handler_configure 0 0 ABS 0
+__Hbank7 0 0 ABS 0
+__Lbank7 0 0 ABS 0
+_ep0_in_decsriptor 28 0 COMRAM 1
+_usb_handle 7C74 0 CODE 0
+__Htext0 0 0 ABS 0
+__Ltext0 0 0 ABS 0
+__Htext1 0 0 ABS 0
+__Ltext1 0 0 ABS 0
+__ptext0 7AD2 0 CODE 0
+__Htext2 0 0 ABS 0
+__Ltext2 0 0 ABS 0
+__ptext1 7A1E 0 CODE 0
+__Htext3 0 0 ABS 0
+__Ltext3 0 0 ABS 0
+__ptext2 7A14 0 CODE 0
+__Htext4 0 0 ABS 0
+__Ltext4 0 0 ABS 0
+__ptext3 7A2C 0 CODE 0
+__Htext5 0 0 ABS 0
+__Ltext5 0 0 ABS 0
+__ptext4 7B3E 0 CODE 0
+_TBLPTRU FF8 0 ABS 0
+__Htext6 0 0 ABS 0
+__Ltext6 0 0 ABS 0
+__ptext5 7D40 0 CODE 0
+__Htext7 0 0 ABS 0
+__Ltext7 0 0 ABS 0
+__ptext6 7C74 0 CODE 0
+__HbssCOMRAM 0 0 ABS 0
+__LbssCOMRAM 0 0 ABS 0
+__Htext8 0 0 ABS 0
+__Ltext8 0 0 ABS 0
+__ptext7 7AF0 0 CODE 0
+__end_of_ep1_entry_point 79EE 0 CODE 0
+__pbssCOMRAM 1F 0 COMRAM 1
+__Htext9 0 0 ABS 0
+__Ltext9 0 0 ABS 0
+__ptext8 7B16 0 CODE 0
+__ptext9 79EE 0 CODE 0
+__Hclrtext 0 0 ABS 0
+__Lclrtext 0 0 ABS 0
+__size_of_usb_configure_handler 0 0 ABS 0
+__size_of_ep2_configure 0 0 ABS 0
+__size_of_read 0 0 ABS 0
+ReadFlash@tblptr_save D 0 COMRAM 1
+__end_of_ep1_unconfigure 7A84 0 CODE 0
+__end_of_ep0_in_handler_ack 7AD2 0 CODE 0
+_usb_device_state 37 0 COMRAM 1
+_string_desc_1 2036 0 SMALLCONST 0
+__end_of_ep0_in_handler_send_descriptor 7E20 0 CODE 0
+__end_of_ep0_in_handler_configure 7A14 0 CODE 0
+__end_of__initialization 7A60 0 CODE 0
+__end_of_ep2_entry_point 7B16 0 CODE 0
+?_ReadFlash 1 0 COMRAM 1
+__end_of_ep2_unconfigure 7A54 0 CODE 0
+__end_of_string_desc_1 2045 0 SMALLCONST 0
+__Hidata 0 0 CODE 0
+_toggled 35 0 COMRAM 1
+__Lidata 0 0 CODE 0
+__Hrdata 0 0 COMRAM 1
+__Lrdata 0 0 COMRAM 1
+__Hidloc 0 0 IDLOC 0
+__Lidloc 0 0 IDLOC 0
+ep0_entry_point@bmRequestType 1B 0 COMRAM 1
+__size_of_ep2_unconfigure_handler 0 0 ABS 0
+__Hparam 0 0 ABS 0
+__Lparam 0 0 ABS 0
+__HcstackCOMRAM 0 0 ABS 0
+__LcstackCOMRAM 0 0 ABS 0
+__pcstackCOMRAM 1 0 COMRAM 1
+_ep0_dir 32 0 COMRAM 1
+__Hsmallconst 2046 0 SMALLCONST 0
+__Lsmallconst 2004 0 SMALLCONST 0
+__psmallconst 2004 0 SMALLCONST 0
+__Hnvbit 0 0 COMRAM 1
+__Lnvbit 0 0 COMRAM 1
+__Hcinit 0 0 ABS 0
+__Lcinit 0 0 ABS 0
+_UIRbits F68 0 ABS 0
+__pcinit 7A54 0 CODE 0
+__ramtop 800 0 RAM 0
+__mediumconst 0 0 MEDIUMCONST 0
+__size_of_main 0 0 ABS 0
+?_ep0_entry_point 19 0 COMRAM 1
+__end_of_usb_start 7B68 0 CODE 0
+?_ep1_entry_point 1 0 COMRAM 1
+?_ep2_entry_point 2 0 COMRAM 1
+_ep0_entry_point 7BDC 0 CODE 0
+_ep1_entry_point 79EC 0 CODE 0
+_ep2_entry_point 7AF0 0 CODE 0
+__Hconst 0 0 CODE 0
+__Lconst 0 0 CODE 0
+__end_of_dev_desc 2036 0 SMALLCONST 0
+_total_writen 36 0 COMRAM 1
+usb_handle@ustat 1C 0 COMRAM 1
+_ep1_buffer 580 0 ABS 1
+_ep2_buffer 5C0 0 ABS 1
+__end_of_usb_device_configure 7A3E 0 CODE 0
+__end_of_usb_disable 7A0A 0 CODE 0
+__end_of_usb_reset 7A9E 0 CODE 0
+_ep0_configure 7D40 0 CODE 0
+_ep1_configure 7B9E 0 CODE 0
+_ep2_configure 7B68 0 CODE 0
+_ep0_in_handler 2A 0 COMRAM 1
+usb_handle@ustat_1009 1E 0 COMRAM 1
+ep0_in_handler_send_descriptor@num 12 0 COMRAM 1
+__Htext10 0 0 ABS 0
+__Ltext10 0 0 ABS 0
+__Htext20 0 0 ABS 0
+__Ltext20 0 0 ABS 0
+__ptext10 79EC 0 CODE 0
+__Htext11 0 0 ABS 0
+__Ltext11 0 0 ABS 0
+__ptext20 7B9E 0 CODE 0
+__Htext21 0 0 ABS 0
+__Ltext21 0 0 ABS 0
+__ptext11 7BDC 0 CODE 0
+__Htext12 0 0 ABS 0
+__Ltext12 0 0 ABS 0
+__ptext21 7C1A 0 CODE 0
+__Htext22 0 0 ABS 0
+__Ltext22 0 0 ABS 0
+__ptext12 7CD6 0 CODE 0
+__Htext13 0 0 ABS 0
+__Ltext13 0 0 ABS 0
+__ptext22 7A00 0 CODE 0
+__Htext23 0 0 ABS 0
+__Ltext23 0 0 ABS 0
+__ptext13 79F0 0 CODE 0
+__Htext14 0 0 ABS 0
+__Ltext14 0 0 ABS 0
+__ptext23 7A84 0 CODE 0
+_EECON1bits FA6 0 ABS 0
+__Htext24 0 0 ABS 0
+__Ltext24 0 0 ABS 0
+__ptext14 7DAE 0 CODE 0
+_ep1_unconfigure 7A6A 0 CODE 0
+_ep2_unconfigure 7A3E 0 CODE 0
+__Htext15 0 0 ABS 0
+_ep0_in_handler_send_descriptor 7DAE 0 CODE 0
+__Ltext15 0 0 ABS 0
+__ptext24 7A3E 0 CODE 0
+__Htext25 0 0 ABS 0
+__Ltext25 0 0 ABS 0
+__ptext15 7AB8 0 CODE 0
+__Htext16 0 0 ABS 0
+__Ltext16 0 0 ABS 0
+__ptext25 79F6 0 CODE 0
+__Htext26 0 0 ABS 0
+__Ltext26 0 0 ABS 0
+__ptext16 7A0A 0 CODE 0
+__Htext17 0 0 ABS 0
+__Ltext17 0 0 ABS 0
+__ptext26 7A6A 0 CODE 0
+__Htext27 0 0 ABS 0
+__Ltext27 0 0 ABS 0
+__ptext17 7A9E 0 CODE 0
+__Htext18 0 0 ABS 0
+__Ltext18 0 0 ABS 0
+__ptext27 0 0 CODE 0
+__ptext18 7E20 0 CODE 0
+__Htext19 0 0 ABS 0
+__Ltext19 0 0 ABS 0
+__ptext19 7B68 0 CODE 0
+__size_of_usb_start 0 0 ABS 0
+__size_of_ep1_unconfigure 0 0 ABS 0
+_INTCONbits FF2 0 ABS 0
+__Hend_init 2004 0 CODE 0
+__Lend_init 2000 0 CODE 0
+_ep0_handle_standard_device 7CD6 0 CODE 0
+__smallconst 2004 0 SMALLCONST 0
+__Hreset_vec 2000 0 CODE 0
+__Lreset_vec 2000 0 CODE 0
+__end_of_ep0_out_handler_ack 7AB8 0 CODE 0
+usb_handle@endpnum 1D 0 COMRAM 1
+__end_of_ReadFlash 7C74 0 CODE 0
+__accesstop 60 0 ABS 0
+__end_of_ep0_configure 7DAE 0 CODE 0
+_usb_disable 7A00 0 CODE 0
+__Hintcode_body 0 0 ABS 0
+__Lintcode_body 0 0 ABS 0
+ep2_configure_handler@handler 1 0 COMRAM 1
+intlevel0 0 0 CODE 0
+__size_of_ep2_unconfigure 0 0 ABS 0
+usb_configure_handler@handler 3 0 COMRAM 1
+intlevel1 0 0 CODE 0
+intlevel2 0 0 CODE 0
+intlevel3 0 0 CODE 0
+_ep0_in_handler_set_address 79F0 0 CODE 0
+_spi_delays 24 0 COMRAM 1
+__end_of_ep1_configure 7BDC 0 CODE 0
+__size_of_ep2_configure_handler 0 0 ABS 0
+__size_of_ep2_prepare_read 0 0 ABS 0
+ReadFlash@startaddr 1 0 COMRAM 1
+_ep0_temp_uaddr 33 0 COMRAM 1
+ReadFlash@num_bytes 5 0 COMRAM 1
+start_initialization 7A54 0 CODE 0
+__size_of_usb_handle 0 0 ABS 0
+__end_of_ep2_configure 7B9E 0 CODE 0
+__end_of_ep2_prepare_read 7B3E 0 CODE 0
+__size_of_usb_device_configure 0 0 ABS 0
+ReadFlash@flash_addr 9 0 COMRAM 1
+__end_of_ep0_handle_standard_device 7D40 0 CODE 0
+__initialization 7A54 0 CODE 0
+__size_of_ep0_in_handler_set_address 0 0 ABS 0
+__activetblptr 2 0 ABS 0
+__end_of_ep0_handle_setup_transaction 8000 0 CODE 0
+ReadFlash@flash_array 7 0 COMRAM 1
+?_ep2_configure_handler 1 0 COMRAM 1
+_ep0_handle_setup_transaction 7E20 0 CODE 0
+?_usb_configure_handler 3 0 COMRAM 1
+__size_of_ep0_out_handler_ack 0 0 ABS 0
+%segments
+reset_vec 2000 2003 CODE 2000 0
+smallconst 2004 2045 SMALLCONST 2004 0
+cstackCOMRAM 1 37 COMRAM 1 1
+text18 7E20 7FFF CODE 7E20 0
+text14 7DAE 7E1F CODE 7DAE 0
+text5 7D40 7DAD CODE 7D40 0
+text12 7CD6 7D3F CODE 7CD6 0
+text6 7C74 7CD5 CODE 7C74 0
+text21 7C1A 7C73 CODE 7C1A 0
+text11 7BDC 7C19 CODE 7BDC 0
+text20 7B9E 7BDB CODE 7B9E 0
+text19 7B68 7B9D CODE 7B68 0
+text4 7B3E 7B67 CODE 7B3E 0
+text8 7B16 7B3D CODE 7B16 0
+text7 7AF0 7B15 CODE 7AF0 0
+text0 7AD2 7AEF CODE 7AD2 0
+text15 7AB8 7AD1 CODE 7AB8 0
+text17 7A9E 7AB7 CODE 7A9E 0
+text23 7A84 7A9D CODE 7A84 0
+text26 7A6A 7A83 CODE 7A6A 0
+cinit 7A54 7A69 CODE 7A54 0
+text24 7A3E 7A53 CODE 7A3E 0
+text3 7A2C 7A3D CODE 7A2C 0
+text1 7A1E 7A2B CODE 7A1E 0
+text2 7A14 7A1D CODE 7A14 0
+text16 7A0A 7A13 CODE 7A0A 0
+text22 7A00 7A09 CODE 7A00 0
+text25 79F6 79FF CODE 79F6 0
+text13 79F0 79F5 CODE 79F0 0
+text9 79EE 79EF CODE 79EE 0
+text10 79EC 79ED CODE 79EC 0
+%locals
+dist/default/production\Chip-Burner.X.production.obj
+C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic18f4550.h
+C:\Users\RUDARO~1\AppData\Local\Temp\su4.
+3125 7A54 0 CODE 0
+3126 7A58 0 CODE 0
+3128 7A5A 0 CODE 0
+3129 7A5C 0 CODE 0
+3130 7A5E 0 CODE 0
+3138 7A60 0 CODE 0
+3139 7A62 0 CODE 0
+3140 7A64 0 CODE 0
+3141 7A66 0 CODE 0
+src/main.C
+20 7AD2 0 CODE 0
+21 7AD6 0 CODE 0
+22 7ADA 0 CODE 0
+23 7ADC 0 CODE 0
+24 7ADE 0 CODE 0
+27 7AEA 0 CODE 0
+28 7AEE 0 CODE 0
+C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/usb.c
+82 7A1E 0 CODE 0
+83 7A2A 0 CODE 0
+C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/ep2.c
+44 7A14 0 CODE 0
+45 7A1C 0 CODE 0
+C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/usb.c
+8 7A2C 0 CODE 0
+9 7A30 0 CODE 0
+10 7A32 0 CODE 0
+9 7A36 0 CODE 0
+12 7A3A 0 CODE 0
+9 7A3C 0 CODE 0
+C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/usb.c
+15 7B3E 0 CODE 0
+16 7B42 0 CODE 0
+17 7B46 0 CODE 0
+19 7B4A 0 CODE 0
+21 7B4E 0 CODE 0
+23 7B52 0 CODE 0
+26 7B5A 0 CODE 0
+28 7B5E 0 CODE 0
+30 7B62 0 CODE 0
+31 7B64 0 CODE 0
+30 7B66 0 CODE 0
+C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/ep0.c
+39 7D40 0 CODE 0
+40 7D48 0 CODE 0
+41 7D4C 0 CODE 0
+42 7D58 0 CODE 0
+43 7D64 0 CODE 0
+44 7D70 0 CODE 0
+46 7D7C 0 CODE 0
+47 7D88 0 CODE 0
+48 7D94 0 CODE 0
+49 7DA0 0 CODE 0
+51 7DAC 0 CODE 0
+C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/usb.c
+54 7C74 0 CODE 0
+55 7C78 0 CODE 0
+56 7C7C 0 CODE 0
+57 7C7E 0 CODE 0
+58 7C84 0 CODE 0
+59 7C88 0 CODE 0
+60 7C8A 0 CODE 0
+64 7C90 0 CODE 0
+65 7C94 0 CODE 0
+66 7C96 0 CODE 0
+67 7CA0 0 CODE 0
+69 7CA2 0 CODE 0
+70 7CAA 0 CODE 0
+72 7CAC 0 CODE 0
+73 7CB4 0 CODE 0
+75 7CB6 0 CODE 0
+76 7CBE 0 CODE 0
+67 7CC0 0 CODE 0
+79 7CD4 0 CODE 0
+C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/ep2.c
+52 7AF0 0 CODE 0
+53 7AF8 0 CODE 0
+58 7B10 0 CODE 0
+59 7B14 0 CODE 0
+C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/ep2.c
+34 7B16 0 CODE 0
+36 7B22 0 CODE 0
+37 7B2A 0 CODE 0
+39 7B30 0 CODE 0
+41 7B3C 0 CODE 0
+src/main.C
+17 79EE 0 CODE 0
+C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/ep1.c
+62 79EC 0 CODE 0
+C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/ep0.c
+196 7BDC 0 CODE 0
+197 7BEC 0 CODE 0
+200 7BF2 0 CODE 0
+201 7BFA 0 CODE 0
+206 7C0A 0 CODE 0
+207 7C0E 0 CODE 0
+204 7C10 0 CODE 0
+210 7C18 0 CODE 0
+C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/ep0.c
+173 7CD6 0 CODE 0
+174 7CDC 0 CODE 0
+176 7CE4 0 CODE 0
+182 7CF4 0 CODE 0
+185 7D0C 0 CODE 0
+188 7D24 0 CODE 0
+189 7D28 0 CODE 0
+180 7D2A 0 CODE 0
+191 7D3E 0 CODE 0
+C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/ep0.c
+241 79F0 0 CODE 0
+242 79F4 0 CODE 0
+C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/ep0.c
+213 7DAE 0 CODE 0
+215 7DCC 0 CODE 0
+216 7DD4 0 CODE 0
+218 7DF8 0 CODE 0
+219 7E00 0 CODE 0
+221 7E04 0 CODE 0
+222 7E0C 0 CODE 0
+224 7E12 0 CODE 0
+226 7E1E 0 CODE 0
+C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/ep0.c
+236 7AB8 0 CODE 0
+237 7AC4 0 CODE 0
+238 7AD0 0 CODE 0
+C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/ep0.c
+245 7A0A 0 CODE 0
+246 7A12 0 CODE 0
+C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/ep0.c
+230 7A9E 0 CODE 0
+231 7AAA 0 CODE 0
+232 7AB6 0 CODE 0
+C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/ep0.c
+56 7E20 0 CODE 0
+68 7E22 0 CODE 0
+69 7E2E 0 CODE 0
+70 7E3A 0 CODE 0
+58 7E3C 0 CODE 0
+74 7E64 0 CODE 0
+75 7E6C 0 CODE 0
+77 7E74 0 CODE 0
+78 7E80 0 CODE 0
+86 7E8E 0 CODE 0
+87 7E96 0 CODE 0
+90 7E9E 0 CODE 0
+91 7EA6 0 CODE 0
+96 7EAE 0 CODE 0
+97 7EB6 0 CODE 0
+98 7EBE 0 CODE 0
+94 7EC0 0 CODE 0
+84 7ECE 0 CODE 0
+102 7EE6 0 CODE 0
+104 7F0C 0 CODE 0
+106 7F12 0 CODE 0
+107 7F1A 0 CODE 0
+109 7F22 0 CODE 0
+110 7F2E 0 CODE 0
+112 7F3A 0 CODE 0
+113 7F3E 0 CODE 0
+115 7F40 0 CODE 0
+117 7F44 0 CODE 0
+128 7F4E 0 CODE 0
+129 7F54 0 CODE 0
+130 7F60 0 CODE 0
+134 7F66 0 CODE 0
+135 7F72 0 CODE 0
+138 7F78 0 CODE 0
+139 7F82 0 CODE 0
+140 7F8A 0 CODE 0
+141 7F8E 0 CODE 0
+150 7F94 0 CODE 0
+159 7F9A 0 CODE 0
+160 7FA6 0 CODE 0
+162 7FB2 0 CODE 0
+163 7FBE 0 CODE 0
+164 7FCA 0 CODE 0
+56 7FCC 0 CODE 0
+167 7FFC 0 CODE 0
+168 7FFE 0 CODE 0
+C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/ep2.c
+18 7B68 0 CODE 0
+19 7B74 0 CODE 0
+20 7B80 0 CODE 0
+21 7B8C 0 CODE 0
+22 7B98 0 CODE 0
+23 7B9C 0 CODE 0
+C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/ep1.c
+17 7B9E 0 CODE 0
+18 7BA6 0 CODE 0
+19 7BB2 0 CODE 0
+20 7BBE 0 CODE 0
+21 7BCA 0 CODE 0
+22 7BD6 0 CODE 0
+23 7BDA 0 CODE 0
+C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic18\plib\Flash\ReadFlash.c
+30 7C1A 0 CODE 0
+33 7C2A 0 CODE 0
+34 7C2E 0 CODE 0
+35 7C32 0 CODE 0
+37 7C36 0 CODE 0
+38 7C3A 0 CODE 0
+39 7C3E 0 CODE 0
+41 7C42 0 CODE 0
+47 7C44 0 CODE 0
+49 7C46 0 CODE 0
+41 7C56 0 CODE 0
+53 7C66 0 CODE 0
+54 7C6A 0 CODE 0
+55 7C6E 0 CODE 0
+57 7C72 0 CODE 0
+C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/usb.c
+34 7A00 0 CODE 0
+35 7A04 0 CODE 0
+36 7A08 0 CODE 0
+C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/usb.c
+40 7A84 0 CODE 0
+41 7A88 0 CODE 0
+42 7A8C 0 CODE 0
+44 7A94 0 CODE 0
+45 7A96 0 CODE 0
+46 7A98 0 CODE 0
+47 7A9A 0 CODE 0
+49 7A9C 0 CODE 0
+C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/ep2.c
+26 7A3E 0 CODE 0
+27 7A42 0 CODE 0
+28 7A4E 0 CODE 0
+29 7A52 0 CODE 0
+C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/ep2.c
+48 79F6 0 CODE 0
+49 79FE 0 CODE 0
+C:/Users/rudarobson/Documents/GitHub/Leonino/PIC/Libraries.X/src/leonino/usb/ep1.c
+26 7A6A 0 CODE 0
+27 7A6E 0 CODE 0
+28 7A7A 0 CODE 0
+29 7A82 0 CODE 0
